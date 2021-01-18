@@ -1,0 +1,151 @@
+body {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+a:link, a:visited {
+  color: whitesmoke;
+}
+
+.navigation {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: orange;
+    text-align: center;
+  }
+ 
+  .main {
+    height: 30rem;
+    padding-top: 1rem;
+    background-image: url("abandoned.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .main img {
+    width: 15rem;
+    display: block;
+    margin: auto;
+    margin-top: 2.5rem;
+  }
+  
+  .main h1 {
+    color: whitesmoke;
+    font-size: 3.5rem;
+    margin-top: 10rem;
+    padding: 1.5rem;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+  
+  li {
+    color: black;
+    font-weight: 700;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+  }
+  
+  .about,
+  .recommend,
+  .photos,
+  .join {
+    margin: 4em auto;
+  }
+  
+  .about {
+    padding: 0 1rem;
+  }
+  
+  .about p {
+    color: grey;
+  }
+  
+  .recommend {
+    background-color: orange;
+    height: 15rem;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    color: black;
+  }
+  
+  .recommend h1 {
+    font-size: 2.5rem;
+    color: black;
+  }
+  
+  .about h2 {
+    color: orange;
+  }
+  
+  .photos img {
+    width: 30%;
+    margin: 1.5%;
+  }
+  
+  .join {
+    margin-bottom: 2rem;
+  }
+  
+  .join img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
+  .join h1 {
+    color: orange;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 1048px) {
+  
+    .photos img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+  
+    .main h1 {
+      margin-top: 2rem;
+    }
+  
+    .main {
+      max-height: 200px;
+    }
+  
+    .photos img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    li {
+      display: block;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+  
+    .recommend h1 {
+      font-size: 2rem;
+    }
+  
+    .photos img {
+      width: 100%;
+    }
+  }
+  
