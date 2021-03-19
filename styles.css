@@ -19,7 +19,7 @@ a:link, a:visited {
   .main {
     height: 30rem;
     padding-top: 1rem;
-    background-image: url("abandoned.jpg");
+    background-image: url("./pics/abandoned.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
